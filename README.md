@@ -1,2 +1,4 @@
-# mypage
-Portfolio web application
+# My Page
+Portfolio Web Application
+
+Sandbox for vibe coding
