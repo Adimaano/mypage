@@ -3,9 +3,8 @@ services:
     build: .
     ports:
       - "3000:80"
-    container_name: adrian-portfolio-react
+    container_name: adrian-portfolio-static
     restart: unless-stopped
-    environment:
-      - NODE_ENV=production
     volumes:
+      - ./index.html:/usr/share/nginx/html/index.html
       - ./nginx.conf:/etc/nginx/conf.d/default.conf
