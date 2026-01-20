@@ -5,5 +5,3 @@ services:
       - "3000:80"
     container_name: adrian-portfolio-static
     restart: unless-stopped
-    volumes:
-      - ./index.html:/usr/share/nginx/html/index.html
